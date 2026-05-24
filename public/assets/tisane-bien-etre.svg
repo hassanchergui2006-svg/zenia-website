@@ -1,0 +1,92 @@
+<svg viewBox="0 0 300 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="box-face" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5F0E8"/>
+      <stop offset="100%" stop-color="#E8E0D0"/>
+    </linearGradient>
+    <linearGradient id="box-top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EDE5D5"/>
+      <stop offset="100%" stop-color="#D8D0C0"/>
+    </linearGradient>
+    <linearGradient id="box-side" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D5CCB8"/>
+      <stop offset="100%" stop-color="#C5BCA8"/>
+    </linearGradient>
+    <linearGradient id="purple-band" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C09AE0"/>
+      <stop offset="100%" stop-color="#8B5CB8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Decorative plants -->
+  <text x="20" y="90" font-size="28" opacity="0.65">🌿</text>
+  <text x="240" y="80" font-size="24" opacity="0.6">💜</text>
+  <text x="18" y="310" font-size="20" opacity="0.55">🌼</text>
+  <text x="244" y="308" font-size="22" opacity="0.6">🌸</text>
+
+  <!-- Box shadow -->
+  <ellipse cx="155" cy="355" rx="88" ry="10" fill="#C0B8A8" opacity="0.3"/>
+
+  <!-- Box side face (right) -->
+  <path d="M218 68 L248 52 L248 320 L218 336 Z" fill="url(#box-side)"/>
+
+  <!-- Box top face -->
+  <path d="M72 52 L102 36 L248 52 L218 68 Z" fill="url(#box-top)"/>
+
+  <!-- Box front face -->
+  <rect x="72" y="68" width="146" height="268" fill="url(#box-face)"/>
+
+  <!-- Box border lines -->
+  <rect x="72" y="68" width="146" height="268" fill="none" stroke="#C8C0B0" stroke-width="0.8"/>
+
+  <!-- Leaf/herb illustration (top of box) -->
+  <text x="145" y="100" text-anchor="middle" font-size="20">🌿</text>
+  <text x="125" y="100" text-anchor="middle" font-size="16">🌸</text>
+  <text x="165" y="100" text-anchor="middle" font-size="16">💜</text>
+
+  <!-- Zenia brand -->
+  <text x="145" y="122" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#174326" font-style="italic" font-weight="bold">Zenia</text>
+
+  <!-- Divider line -->
+  <line x1="82" y1="127" x2="208" y2="127" stroke="#6F8B61" stroke-width="0.7"/>
+
+  <!-- Product name -->
+  <text x="145" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#25221D" font-weight="bold">TISANE</text>
+  <text x="145" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#25221D" font-weight="bold">BIEN-ÊTRE</text>
+
+  <!-- Purple band -->
+  <rect x="80" y="174" width="130" height="22" rx="3" fill="url(#purple-band)"/>
+  <text x="145" y="189" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="white" font-weight="bold" letter-spacing="0.8">RELAXATION &amp; ANTI-STRESS</text>
+
+  <!-- Description -->
+  <text x="145" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#5B3A24">À base de camomille, mélisse,</text>
+  <text x="145" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#5B3A24">lavande et verveine</text>
+
+  <!-- Icons row -->
+  <circle cx="102" cy="248" r="16" fill="#E8F0E0"/>
+  <text x="102" y="253" text-anchor="middle" font-size="12">🌿</text>
+  <circle cx="145" cy="248" r="16" fill="#EDE0F8"/>
+  <text x="145" y="253" text-anchor="middle" font-size="12">🧘</text>
+  <circle cx="188" cy="248" r="16" fill="#E0EAF5"/>
+  <text x="188" y="253" text-anchor="middle" font-size="12">🌙</text>
+
+  <text x="102" y="273" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#174326" font-weight="bold">100%</text>
+  <text x="102" y="282" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#174326" font-weight="bold">Naturelle</text>
+  <text x="145" y="273" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#4E285F" font-weight="bold">Relaxation</text>
+  <text x="145" y="282" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#4E285F" font-weight="bold">Profonde</text>
+  <text x="188" y="273" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#174326" font-weight="bold">Sommeil</text>
+  <text x="188" y="282" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#174326" font-weight="bold">Réparateur</text>
+
+  <!-- Line separator -->
+  <line x1="82" y1="292" x2="208" y2="292" stroke="#DDD0EC" stroke-width="0.6"/>
+
+  <!-- Bottom info -->
+  <text x="145" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="#25221D" font-weight="bold">20 SACHETS</text>
+  <text x="145" y="318" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#5B3A24">Poids net : 30 g</text>
+  <text x="145" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#6F8B61">Complément alimentaire</text>
+
+  <!-- Tea bag hanging outside box -->
+  <rect x="78" y="268" width="20" height="26" rx="3" fill="white" stroke="#DDD0EC" stroke-width="1"/>
+  <text x="88" y="286" text-anchor="middle" font-family="Georgia,serif" font-size="6" fill="#4E285F" font-style="italic">Zenia</text>
+  <line x1="78" y1="265" x2="82" y2="252" stroke="#C8B0E8" stroke-width="1.5"/>
+</svg>

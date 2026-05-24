@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Kalam:wght@300;400;700&family=Nunito+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #F7F0E6;
+  --paper: #FFF9ED;
+  --dark-green: #174326;
+  --leaf-green: #6F8B61;
+  --soft-green: #DDE8D2;
+  --lavender: #B58BD6;
+  --deep-purple: #4E285F;
+  --warm-yellow: #E9CF62;
+  --brown: #5B3A24;
+  --ink: #25221D;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--ink);
+  font-family: 'Nunito Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+@layer components {
+  /* Buttons */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-dark-green text-cream font-semibold font-body text-sm transition-all duration-300 hover:bg-opacity-90 hover:shadow-soft hover:-translate-y-0.5 active:translate-y-0 focus:outline-none focus:ring-2 focus:ring-dark-green focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border-2 border-dark-green text-dark-green font-semibold font-body text-sm bg-transparent transition-all duration-300 hover:bg-soft-green hover:-translate-y-0.5 active:translate-y-0 focus:outline-none focus:ring-2 focus:ring-dark-green focus:ring-offset-2;
+  }
+
+  /* Cards */
+  .card-paper {
+    @apply bg-paper rounded-2xl border border-soft-green shadow-card p-6 transition-all duration-300 hover:shadow-soft hover:-translate-y-1;
+  }
+
+  /* Badges */
+  .badge-offer {
+    @apply inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-lavender bg-opacity-25 text-deep-purple text-xs font-semibold font-body border border-lavender border-opacity-40;
+  }
+
+  .badge-product {
+    @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold font-body;
+  }
+
+  /* Handwriting titles */
+  .title-handwriting {
+    @apply font-handwriting text-dark-green;
+  }
+
+  /* Section spacing */
+  .section-padding {
+    @apply py-16 md:py-24 px-4 md:px-8;
+  }
+
+  .container-main {
+    @apply max-w-6xl mx-auto w-full;
+  }
+
+  /* Brush highlight effect */
+  .brush-highlight-green {
+    @apply relative inline-block;
+    background: linear-gradient(180deg, transparent 60%, rgba(221, 232, 210, 0.8) 60%);
+  }
+
+  .brush-highlight-purple {
+    @apply relative inline-block;
+    background: linear-gradient(180deg, transparent 55%, rgba(181, 139, 214, 0.35) 55%);
+  }
+
+  .brush-highlight-yellow {
+    @apply relative inline-block;
+    background: linear-gradient(180deg, transparent 60%, rgba(233, 207, 98, 0.5) 60%);
+  }
+
+  /* Paper texture card */
+  .paper-card {
+    background-color: var(--paper);
+    background-image:
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 27px,
+        rgba(111, 139, 97, 0.07) 27px,
+        rgba(111, 139, 97, 0.07) 28px
+      );
+    border-radius: 16px;
+  }
+
+  /* Sticker style */
+  .sticker {
+    @apply inline-flex items-center gap-1 px-3 py-1.5 rounded-xl font-body font-semibold text-xs shadow-sm border;
+    transform: rotate(-2deg);
+  }
+
+  .sticker:nth-child(even) {
+    transform: rotate(2deg);
+  }
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--leaf-green);
+  border-radius: 3px;
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(181, 139, 214, 0.3);
+  color: var(--dark-green);
+}

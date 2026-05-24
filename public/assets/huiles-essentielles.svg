@@ -1,0 +1,71 @@
+<svg viewBox="0 0 300 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bottle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2C1A0A"/>
+      <stop offset="30%" stop-color="#5C3A1E"/>
+      <stop offset="65%" stop-color="#4A2E14"/>
+      <stop offset="100%" stop-color="#2C1A0A"/>
+    </linearGradient>
+    <linearGradient id="dropper-rubber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5B3A24"/>
+      <stop offset="100%" stop-color="#3D2410"/>
+    </linearGradient>
+    <linearGradient id="label-h" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F8F5EE"/>
+      <stop offset="100%" stop-color="#EDE6D8"/>
+    </linearGradient>
+    <radialGradient id="oil-shine" cx="30%" cy="25%" r="50%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Lavender flowers decorative -->
+  <text x="38" y="100" font-size="26" opacity="0.7">💜</text>
+  <text x="235" y="120" font-size="22" opacity="0.6">🌸</text>
+  <text x="50" y="280" font-size="18" opacity="0.5">🌿</text>
+  <text x="228" y="290" font-size="20" opacity="0.6">💜</text>
+
+  <!-- Dropper rubber top -->
+  <ellipse cx="150" cy="48" rx="18" ry="12" fill="url(#dropper-rubber)"/>
+  <rect x="132" y="36" width="36" height="20" rx="8" fill="url(#dropper-rubber)"/>
+  <ellipse cx="150" cy="36" rx="18" ry="8" fill="#4A2E14"/>
+
+  <!-- Dropper glass tube -->
+  <rect x="146" y="56" width="8" height="38" rx="4" fill="#C8C0B5" opacity="0.8"/>
+  <rect x="147" y="56" width="3" height="38" rx="1.5" fill="white" opacity="0.3"/>
+
+  <!-- Bottle neck -->
+  <rect x="136" y="90" width="28" height="30" rx="5" fill="url(#bottle)"/>
+
+  <!-- Bottle body -->
+  <rect x="98" y="116" width="104" height="195" rx="14" fill="url(#bottle)"/>
+  <rect x="98" y="116" width="104" height="195" rx="14" fill="url(#oil-shine)"/>
+  <!-- Shine strip -->
+  <rect x="104" y="124" width="14" height="176" rx="7" fill="white" opacity="0.07"/>
+
+  <!-- Label -->
+  <rect x="107" y="135" width="86" height="130" rx="7" fill="url(#label-h)"/>
+  <rect x="107" y="135" width="86" height="130" rx="7" fill="none" stroke="#B58BD6" stroke-width="1.4"/>
+  <rect x="111" y="139" width="78" height="122" rx="5" fill="none" stroke="#B58BD6" stroke-width="0.4" stroke-dasharray="2,2"/>
+
+  <!-- Lavender icon -->
+  <text x="150" y="160" text-anchor="middle" font-size="16">💜</text>
+
+  <!-- Zenia -->
+  <text x="150" y="178" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#4E285F" font-style="italic" font-weight="bold">Zenia</text>
+  <line x1="115" y1="182" x2="185" y2="182" stroke="#B58BD6" stroke-width="0.7"/>
+
+  <!-- Product name -->
+  <text x="150" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="#25221D" font-weight="bold" letter-spacing="1">HUILES</text>
+  <text x="150" y="206" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="#25221D" font-weight="bold" letter-spacing="1">ESSENTIELLES</text>
+  <line x1="115" y1="211" x2="185" y2="211" stroke="#DDD0EC" stroke-width="0.5"/>
+
+  <text x="150" y="223" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#5B3A24">Pour apaiser le corps</text>
+  <text x="150" y="233" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#5B3A24">et l'esprit</text>
+
+  <!-- Badge -->
+  <rect x="118" y="246" width="64" height="12" rx="6" fill="#4E285F" opacity="0.15"/>
+  <rect x="118" y="246" width="64" height="12" rx="6" fill="none" stroke="#B58BD6" stroke-width="0.8"/>
+  <text x="150" y="256" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#4E285F" font-weight="bold">100% PURE &amp; NATUREL</text>
+</svg>

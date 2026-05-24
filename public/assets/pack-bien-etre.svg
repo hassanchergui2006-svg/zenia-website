@@ -1,0 +1,100 @@
+<svg viewBox="0 0 340 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pack-box" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0EBE0"/>
+      <stop offset="100%" stop-color="#E0D8C8"/>
+    </linearGradient>
+    <linearGradient id="pack-side" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C8C0B0"/>
+      <stop offset="100%" stop-color="#B8B0A0"/>
+    </linearGradient>
+    <linearGradient id="pack-top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0D8C8"/>
+      <stop offset="100%" stop-color="#C8C0B0"/>
+    </linearGradient>
+    <linearGradient id="green-stripe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D5A3D"/>
+      <stop offset="100%" stop-color="#174326"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Decorative plants around -->
+  <text x="12" y="88" font-size="22" opacity="0.55">🌿</text>
+  <text x="300" y="92" font-size="20" opacity="0.5">🌼</text>
+  <text x="14" y="300" font-size="18" opacity="0.5">💜</text>
+  <text x="302" y="298" font-size="18" opacity="0.55">🌸</text>
+
+  <!-- Box shadow -->
+  <ellipse cx="172" cy="340" rx="120" ry="10" fill="#B8B0A0" opacity="0.25"/>
+
+  <!-- Box right side -->
+  <path d="M252 62 L292 46 L292 300 L252 316 Z" fill="url(#pack-side)"/>
+
+  <!-- Box top -->
+  <path d="M52 46 L92 30 L292 46 L252 62 Z" fill="url(#pack-top)"/>
+
+  <!-- Box front face -->
+  <rect x="52" y="62" width="200" height="254" fill="url(#pack-box)"/>
+  <rect x="52" y="62" width="200" height="254" fill="none" stroke="#C8C0B0" stroke-width="1"/>
+
+  <!-- Green stripe at top of front -->
+  <rect x="52" y="62" width="200" height="6" fill="url(#green-stripe)"/>
+
+  <!-- Illustrated herbs (top area) -->
+  <text x="92" y="96" font-size="15" opacity="0.7">🌿</text>
+  <text x="118" y="90" font-size="13" opacity="0.65">🌸</text>
+  <text x="152" y="87" font-size="16" opacity="0.7">🍃</text>
+  <text x="182" y="90" font-size="13" opacity="0.65">🌼</text>
+  <text x="208" y="96" font-size="15" opacity="0.7">🌿</text>
+
+  <!-- Zenia brand name -->
+  <text x="152" y="114" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#174326" font-style="italic" font-weight="bold">Zenia</text>
+
+  <!-- Product name -->
+  <text x="152" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#174326" font-weight="bold" letter-spacing="1">PACK</text>
+  <text x="152" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#174326" font-weight="bold" letter-spacing="1">BIEN-ÊTRE</text>
+
+  <!-- Subtitle band -->
+  <rect x="68" y="166" width="168" height="18" rx="3" fill="url(#green-stripe)" opacity="0.9"/>
+  <text x="152" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#F7F0E6" font-weight="bold" letter-spacing="0.5">Détente · Sérénité · Équilibre</text>
+
+  <!-- Description -->
+  <text x="152" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#5B3A24">Votre routine complète</text>
+  <text x="152" y="211" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#5B3A24">pour le corps et l'esprit</text>
+
+  <!-- Mini products inside preview -->
+  <rect x="66" y="222" width="172" height="54" rx="6" fill="white" opacity="0.55"/>
+  <rect x="66" y="222" width="172" height="54" rx="6" fill="none" stroke="#C8C0B0" stroke-width="0.8"/>
+
+  <!-- 4 product mini icons -->
+  <circle cx="95" cy="249" r="18" fill="#E8E0D8"/>
+  <text x="95" y="254" text-anchor="middle" font-size="14">💊</text>
+  <circle cx="130" cy="249" r="18" fill="#F0EAE4"/>
+  <text x="130" y="254" text-anchor="middle" font-size="14">🍬</text>
+  <circle cx="175" cy="249" r="18" fill="#E8F0E0"/>
+  <text x="175" y="254" text-anchor="middle" font-size="14">💧</text>
+  <circle cx="210" cy="249" r="18" fill="#EDE0F8"/>
+  <text x="210" y="254" text-anchor="middle" font-size="14">🍵</text>
+
+  <!-- Product mini labels -->
+  <text x="95" y="272" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#25221D">Capsules</text>
+  <text x="130" y="272" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#25221D">Gummies</text>
+  <text x="175" y="272" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#25221D">Huile</text>
+  <text x="210" y="272" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#25221D">Tisane</text>
+
+  <!-- 3 badges bottom -->
+  <circle cx="100" cy="300" r="20" fill="#E8F0E0"/>
+  <text x="100" y="296" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#174326" font-weight="bold">100%</text>
+  <text x="100" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#174326">Naturel</text>
+
+  <circle cx="152" cy="300" r="20" fill="#FFF0D8"/>
+  <text x="152" y="296" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#5B3A24" font-weight="bold">Sans</text>
+  <text x="152" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#5B3A24">Chimie</text>
+
+  <circle cx="204" cy="300" r="20" fill="#EDE0F8"/>
+  <text x="204" y="296" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#4E285F" font-weight="bold">Fabriqué</text>
+  <text x="204" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="5" fill="#4E285F">au Maroc</text>
+
+  <!-- Green stripe at bottom -->
+  <rect x="52" y="310" width="200" height="6" fill="url(#green-stripe)"/>
+</svg>

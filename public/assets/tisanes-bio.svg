@@ -1,0 +1,71 @@
+<svg viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tea-liquid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C8A84B" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#A07830" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="cup-body" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8E2D8"/>
+      <stop offset="40%" stop-color="#F5F0E8"/>
+      <stop offset="100%" stop-color="#DDD8CE"/>
+    </linearGradient>
+    <linearGradient id="saucer" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EDE8DE"/>
+      <stop offset="100%" stop-color="#D8D2C8"/>
+    </linearGradient>
+    <radialGradient id="steam1" cx="50%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#DDE8D2" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#DDE8D2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Steam wisps -->
+  <path d="M128 82 Q122 68 128 55 Q134 42 128 28" stroke="#DDE8D2" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M150 78 Q144 62 150 48 Q156 34 150 20" stroke="#DDE8D2" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M172 82 Q166 68 172 55 Q178 42 172 28" stroke="#DDE8D2" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Decorative elements -->
+  <text x="38" y="120" font-size="22" opacity="0.7">🌼</text>
+  <text x="234" y="115" font-size="20" opacity="0.65">🌿</text>
+  <text x="50" y="250" font-size="18" opacity="0.55">🍃</text>
+  <text x="232" y="255" font-size="18" opacity="0.6">🌼</text>
+
+  <!-- Handle -->
+  <path d="M218 140 Q255 140 255 175 Q255 210 218 210" stroke="url(#cup-body)" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M218 140 Q248 140 248 175 Q248 210 218 210" stroke="#EDE8DE" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Cup body -->
+  <path d="M82 118 L90 225 Q90 238 103 238 L197 238 Q210 238 210 225 L218 118 Z" fill="url(#cup-body)"/>
+  <path d="M82 118 L90 225 Q90 238 103 238 L197 238 Q210 238 210 225 L218 118 Z" fill="none" stroke="#D5CFC5" stroke-width="1"/>
+
+  <!-- Tea liquid inside -->
+  <path d="M88 148 L92 225 Q92 235 103 235 L197 235 Q208 235 208 225 L212 148 Z" fill="url(#tea-liquid)"/>
+
+  <!-- Tea surface reflection -->
+  <ellipse cx="150" cy="148" rx="62" ry="10" fill="#D4A840" opacity="0.6"/>
+  <ellipse cx="150" cy="148" rx="45" ry="6" fill="#E0B850" opacity="0.4"/>
+
+  <!-- Cup rim -->
+  <ellipse cx="150" cy="118" rx="68" ry="14" fill="#EDE8DE"/>
+  <ellipse cx="150" cy="118" rx="68" ry="14" fill="none" stroke="#D5CFC5" stroke-width="1.2"/>
+  <ellipse cx="150" cy="118" rx="56" ry="10" fill="#F2EDE4"/>
+
+  <!-- Saucer -->
+  <ellipse cx="150" cy="255" rx="95" ry="16" fill="url(#saucer)"/>
+  <ellipse cx="150" cy="255" rx="95" ry="16" fill="none" stroke="#C8C2B8" stroke-width="1"/>
+  <ellipse cx="150" cy="252" rx="70" ry="10" fill="#E5DFD5" opacity="0.7"/>
+
+  <!-- Label on cup -->
+  <rect x="100" y="158" width="100" height="62" rx="6" fill="white" opacity="0.88"/>
+  <rect x="100" y="158" width="100" height="62" rx="6" fill="none" stroke="#6F8B61" stroke-width="1.2"/>
+
+  <text x="150" y="175" text-anchor="middle" font-size="12">🌿</text>
+  <text x="150" y="190" text-anchor="middle" font-family="Georgia,serif" font-size="9.5" fill="#174326" font-style="italic" font-weight="bold">Zenia</text>
+  <line x1="108" y1="194" x2="192" y2="194" stroke="#6F8B61" stroke-width="0.6"/>
+  <text x="150" y="204" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="#25221D" font-weight="bold" letter-spacing="0.8">TISANES BIO</text>
+  <text x="150" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.8" fill="#6F8B61">Plantes · Anti-stress · Calme</text>
+
+  <!-- Chamomile flowers around cup -->
+  <text x="102" y="280" font-size="16" opacity="0.7">🌼</text>
+  <text x="170" y="278" font-size="14" opacity="0.65">🌼</text>
+</svg>

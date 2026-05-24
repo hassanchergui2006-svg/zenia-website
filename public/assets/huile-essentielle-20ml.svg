@@ -1,0 +1,131 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bottle-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1C1008"/>
+      <stop offset="25%" stop-color="#3D2410"/>
+      <stop offset="60%" stop-color="#4A2E18"/>
+      <stop offset="100%" stop-color="#1C1008"/>
+    </linearGradient>
+    <linearGradient id="dropper-cap" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#222222"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="label-he" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F8F5EE"/>
+      <stop offset="100%" stop-color="#EDE6D8"/>
+    </linearGradient>
+    <linearGradient id="box-he" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F4F0E8"/>
+      <stop offset="100%" stop-color="#E5DFD2"/>
+    </linearGradient>
+    <linearGradient id="green-bar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D5A3D"/>
+      <stop offset="100%" stop-color="#174326"/>
+    </linearGradient>
+    <radialGradient id="shine-he" cx="28%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Lavender flowers -->
+  <text x="22" y="100" font-size="24" opacity="0.65">💜</text>
+  <text x="22" y="135" font-size="20" opacity="0.5">🌿</text>
+  <text x="240" y="110" font-size="22" opacity="0.6">🌼</text>
+
+  <!-- === DROPPER BOTTLE (left) === -->
+  <!-- Dropper cap (black rubber) -->
+  <ellipse cx="110" cy="48" rx="18" ry="10" fill="#1A1A1A"/>
+  <rect x="92" y="38" width="36" height="20" rx="9" fill="url(#dropper-cap)"/>
+  <ellipse cx="110" cy="38" rx="18" ry="8" fill="#2A2A2A"/>
+
+  <!-- Dropper glass tube -->
+  <rect x="106" y="56" width="8" height="34" rx="4" fill="#C0B8B0" opacity="0.9"/>
+  <rect x="107" y="56" width="3" height="34" rx="1.5" fill="white" opacity="0.35"/>
+
+  <!-- Bottle neck -->
+  <rect x="98" y="86" width="24" height="28" rx="5" fill="url(#bottle-dark)"/>
+
+  <!-- Bottle body -->
+  <rect x="76" y="110" width="68" height="190" rx="12" fill="url(#bottle-dark)"/>
+  <rect x="76" y="110" width="68" height="190" rx="12" fill="url(#shine-he)"/>
+  <rect x="82" y="118" width="10" height="174" rx="5" fill="white" opacity="0.07"/>
+
+  <!-- Label on bottle -->
+  <rect x="82" y="128" width="56" height="138" rx="6" fill="url(#label-he)"/>
+  <rect x="82" y="128" width="56" height="138" rx="6" fill="none" stroke="#6F8B61" stroke-width="1.2"/>
+
+  <!-- Leaf icon -->
+  <text x="110" y="150" text-anchor="middle" font-size="12">🌿</text>
+
+  <!-- Zenia -->
+  <text x="110" y="166" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#174326" font-style="italic" font-weight="bold">Zenia</text>
+  <line x1="88" y1="170" x2="132" y2="170" stroke="#6F8B61" stroke-width="0.7"/>
+
+  <!-- Product name on bottle -->
+  <text x="110" y="183" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#25221D" font-weight="bold">HUILE</text>
+  <text x="110" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#25221D" font-weight="bold">ESSENTIELLE</text>
+  <line x1="88" y1="198" x2="132" y2="198" stroke="#DDE8D2" stroke-width="0.5"/>
+
+  <!-- Tagline on bottle -->
+  <text x="110" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#4E285F" font-weight="bold">DÉTENTE &amp; SOMMEIL</text>
+  <text x="110" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#5B3A24">À base de lavande,</text>
+  <text x="110" y="232" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#5B3A24">camomille et mélisse</text>
+
+  <!-- Icons row -->
+  <circle cx="96" cy="251" r="10" fill="#DDE8D2"/>
+  <circle cx="110" cy="251" r="10" fill="#DDE8D2"/>
+  <circle cx="124" cy="251" r="10" fill="#DDE8D2"/>
+  <text x="96" y="255" text-anchor="middle" font-size="8">🌿</text>
+  <text x="110" y="255" text-anchor="middle" font-size="8">🧘</text>
+  <text x="124" y="255" text-anchor="middle" font-size="8">🌙</text>
+
+  <!-- 30 ml + green bar -->
+  <rect x="86" y="262" width="48" height="10" rx="5" fill="url(#green-bar)"/>
+  <text x="110" y="271" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="white" font-weight="bold">30 ml</text>
+
+  <!-- Bottle base -->
+  <ellipse cx="110" cy="300" rx="34" ry="7" fill="#1A0E04" opacity="0.4"/>
+
+  <!-- === BOX (right) === -->
+  <rect x="160" y="95" width="110" height="200" rx="6" fill="url(#box-he)"/>
+  <rect x="160" y="95" width="110" height="200" rx="6" fill="none" stroke="#C8C0B0" stroke-width="0.8"/>
+
+  <!-- Box top decoration -->
+  <text x="215" y="122" text-anchor="middle" font-size="14">🌸</text>
+  <text x="198" y="122" text-anchor="middle" font-size="12">🌿</text>
+  <text x="232" y="122" text-anchor="middle" font-size="12">🌼</text>
+
+  <!-- Zenia on box -->
+  <text x="215" y="142" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#174326" font-style="italic" font-weight="bold">Zenia</text>
+  <line x1="168" y1="146" x2="262" y2="146" stroke="#6F8B61" stroke-width="0.7"/>
+
+  <!-- Product name on box -->
+  <text x="215" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#25221D" font-weight="bold">HUILE</text>
+  <text x="215" y="176" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#25221D" font-weight="bold">ESSENTIELLE</text>
+
+  <!-- Tagline on box -->
+  <rect x="168" y="182" width="94" height="16" rx="3" fill="url(#green-bar)"/>
+  <text x="215" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="white" font-weight="bold">DÉTENTE &amp; SOMMEIL</text>
+
+  <text x="215" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#5B3A24">À base de lavande,</text>
+  <text x="215" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="#5B3A24">camomille et mélisse</text>
+
+  <!-- Icons row on box -->
+  <circle cx="190" cy="244" r="14" fill="#E8F0E0"/>
+  <circle cx="215" cy="244" r="14" fill="#EDE0F8"/>
+  <circle cx="240" cy="244" r="14" fill="#E0EAF5"/>
+  <text x="190" y="249" text-anchor="middle" font-size="10">🌿</text>
+  <text x="215" y="249" text-anchor="middle" font-size="10">🧘</text>
+  <text x="240" y="249" text-anchor="middle" font-size="10">🌙</text>
+
+  <text x="190" y="264" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#174326" font-weight="bold">100%</text>
+  <text x="190" y="272" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#174326">Naturelle</text>
+  <text x="215" y="264" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#4E285F" font-weight="bold">Relaxation</text>
+  <text x="215" y="272" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#4E285F">Profonde</text>
+  <text x="240" y="264" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#174326" font-weight="bold">Sommeil</text>
+  <text x="240" y="272" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.5" fill="#174326">Réparateur</text>
+
+  <!-- 30 ml on box -->
+  <text x="215" y="288" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#174326" font-weight="bold">30 ml</text>
+</svg>

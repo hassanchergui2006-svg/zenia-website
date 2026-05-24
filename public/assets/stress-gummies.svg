@@ -1,0 +1,92 @@
+<svg viewBox="0 0 300 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="jar-glass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D8D0C5" stop-opacity="0.7"/>
+      <stop offset="20%" stop-color="#F0EAE0" stop-opacity="0.85"/>
+      <stop offset="65%" stop-color="#EDE7DC" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#C8C0B5" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="lid-white" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0DBD4"/>
+    </linearGradient>
+    <linearGradient id="label-g" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F4"/>
+      <stop offset="100%" stop-color="#F0EBE2"/>
+    </linearGradient>
+    <linearGradient id="gummy-red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E74C3C"/>
+      <stop offset="100%" stop-color="#C0392B"/>
+    </linearGradient>
+    <linearGradient id="gummy-red2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#E74C3C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Gummies scattered outside -->
+  <circle cx="48" cy="345" r="15" fill="url(#gummy-red)" opacity="0.9"/>
+  <circle cx="30" cy="375" r="12" fill="url(#gummy-red2)" opacity="0.8"/>
+  <circle cx="255" cy="350" r="14" fill="url(#gummy-red)" opacity="0.9"/>
+  <circle cx="272" cy="378" r="11" fill="url(#gummy-red2)" opacity="0.8"/>
+  <circle cx="70" cy="395" r="10" fill="url(#gummy-red)" opacity="0.7"/>
+  <circle cx="235" cy="400" r="10" fill="url(#gummy-red2)" opacity="0.7"/>
+
+  <!-- Jar lid top -->
+  <ellipse cx="150" cy="68" rx="82" ry="16" fill="#DEDAD4"/>
+  <rect x="68" y="55" width="164" height="30" rx="8" fill="url(#lid-white)"/>
+  <ellipse cx="150" cy="55" rx="82" ry="16" fill="#FFFFFF"/>
+  <!-- Lid grip lines -->
+  <line x1="90" y1="60" x2="90" y2="78" stroke="#DEDAD4" stroke-width="1.5" opacity="0.6"/>
+  <line x1="110" y1="57" x2="110" y2="80" stroke="#DEDAD4" stroke-width="1.5" opacity="0.6"/>
+  <line x1="130" y1="56" x2="130" y2="82" stroke="#DEDAD4" stroke-width="1.5" opacity="0.6"/>
+  <line x1="150" y1="55" x2="150" y2="83" stroke="#DEDAD4" stroke-width="1.5" opacity="0.6"/>
+  <line x1="170" y1="56" x2="170" y2="82" stroke="#DEDAD4" stroke-width="1.5" opacity="0.6"/>
+  <line x1="190" y1="57" x2="190" y2="80" stroke="#DEDAD4" stroke-width="1.5" opacity="0.6"/>
+  <line x1="210" y1="60" x2="210" y2="78" stroke="#DEDAD4" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Jar body -->
+  <rect x="62" y="82" width="176" height="230" rx="16" fill="url(#jar-glass)"/>
+
+  <!-- Gummies inside jar -->
+  <circle cx="90" cy="118" r="16" fill="url(#gummy-red)" opacity="0.88"/>
+  <circle cx="120" cy="104" r="15" fill="url(#gummy-red2)" opacity="0.88"/>
+  <circle cx="152" cy="112" r="16" fill="url(#gummy-red)" opacity="0.88"/>
+  <circle cx="182" cy="100" r="15" fill="url(#gummy-red2)" opacity="0.88"/>
+  <circle cx="210" cy="115" r="15" fill="url(#gummy-red)" opacity="0.88"/>
+  <circle cx="88" cy="148" r="15" fill="url(#gummy-red2)" opacity="0.82"/>
+  <circle cx="118" cy="138" r="16" fill="url(#gummy-red)" opacity="0.82"/>
+  <circle cx="150" cy="148" r="15" fill="url(#gummy-red2)" opacity="0.82"/>
+  <circle cx="182" cy="136" r="15" fill="url(#gummy-red)" opacity="0.82"/>
+  <circle cx="212" cy="146" r="14" fill="url(#gummy-red2)" opacity="0.82"/>
+  <!-- Shine on gummies -->
+  <circle cx="84" cy="113" r="5" fill="white" opacity="0.3"/>
+  <circle cx="116" cy="99" r="4" fill="white" opacity="0.3"/>
+  <circle cx="148" cy="107" r="5" fill="white" opacity="0.3"/>
+
+  <!-- Label -->
+  <rect x="72" y="195" width="156" height="100" rx="8" fill="url(#label-g)" opacity="0.96"/>
+  <rect x="72" y="195" width="156" height="100" rx="8" fill="none" stroke="#B58BD6" stroke-width="1.8"/>
+  <rect x="76" y="199" width="148" height="92" rx="6" fill="none" stroke="#B58BD6" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+  <!-- Zenia -->
+  <text x="150" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#4E285F" font-style="italic" font-weight="bold" letter-spacing="1">Zenia</text>
+
+  <!-- Divider -->
+  <line x1="82" y1="224" x2="218" y2="224" stroke="#B58BD6" stroke-width="0.8"/>
+
+  <!-- Product name -->
+  <text x="150" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#25221D" font-weight="bold" letter-spacing="1.5">STRESS GUMMIES</text>
+  <text x="150" y="253" text-anchor="middle" font-family="Arial, sans-serif" font-size="6.5" fill="#4E285F">Détente · Sérénité · Équilibre</text>
+
+  <!-- Divider -->
+  <line x1="82" y1="258" x2="218" y2="258" stroke="#DDD0EC" stroke-width="0.6"/>
+
+  <text x="150" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="6.5" fill="#5B3A24">À base de vitamines B6,</text>
+  <text x="150" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="6.5" fill="#5B3A24">camomille et mélisse</text>
+
+  <text x="150" y="291" text-anchor="middle" font-family="Arial, sans-serif" font-size="6.5" fill="#B58BD6" font-weight="bold">60 GUMMIES · FRUITS ROUGES</text>
+
+  <!-- Jar base -->
+  <ellipse cx="150" cy="312" rx="88" ry="10" fill="#C8C0B5" opacity="0.4"/>
+</svg>
