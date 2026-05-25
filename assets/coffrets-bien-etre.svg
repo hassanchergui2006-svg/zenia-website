@@ -1,0 +1,93 @@
+<svg viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="box-top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C8A870"/>
+      <stop offset="100%" stop-color="#A88040"/>
+    </linearGradient>
+    <linearGradient id="box-front" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B89058"/>
+      <stop offset="100%" stop-color="#9A7438"/>
+    </linearGradient>
+    <linearGradient id="box-side" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8A6428"/>
+      <stop offset="100%" stop-color="#A07840"/>
+    </linearGradient>
+    <linearGradient id="ribbon-v" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DDD0EC"/>
+      <stop offset="100%" stop-color="#B58BD6"/>
+    </linearGradient>
+    <linearGradient id="ribbon-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DDD0EC"/>
+      <stop offset="100%" stop-color="#B58BD6"/>
+    </linearGradient>
+    <linearGradient id="bow-l" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8DAFC"/>
+      <stop offset="100%" stop-color="#B58BD6"/>
+    </linearGradient>
+    <linearGradient id="bow-r" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8DAFC"/>
+      <stop offset="100%" stop-color="#C09AE0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Floating sparkles -->
+  <text x="42" y="68" font-size="16" opacity="0.55">✨</text>
+  <text x="240" y="72" font-size="14" opacity="0.5">⭐</text>
+  <text x="36" y="270" font-size="14" opacity="0.5">🎀</text>
+  <text x="242" y="272" font-size="16" opacity="0.55">✨</text>
+
+  <!-- Shadow -->
+  <ellipse cx="155" cy="286" rx="90" ry="10" fill="#8A6428" opacity="0.25"/>
+
+  <!-- Box side (right face) -->
+  <path d="M222 148 L258 122 L258 258 L222 278 Z" fill="url(#box-side)"/>
+  <!-- Box top face -->
+  <path d="M82 112 L118 88 L258 122 L222 148 Z" fill="url(#box-top)"/>
+  <!-- Box front face -->
+  <rect x="82" y="148" width="140" height="130" fill="url(#box-front)"/>
+
+  <!-- Texture lines on front -->
+  <line x1="82" y1="160" x2="222" y2="160" stroke="#A07030" stroke-width="0.5" opacity="0.4"/>
+  <line x1="82" y1="172" x2="222" y2="172" stroke="#A07030" stroke-width="0.5" opacity="0.4"/>
+  <line x1="82" y1="184" x2="222" y2="184" stroke="#A07030" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Vertical ribbon on front -->
+  <rect x="138" y="148" width="28" height="130" fill="url(#ribbon-v)" opacity="0.85"/>
+
+  <!-- Horizontal ribbon on front -->
+  <rect x="82" y="196" width="140" height="20" fill="url(#ribbon-h)" opacity="0.85"/>
+
+  <!-- Ribbon on top face -->
+  <polygon points="138,88 166,88 222,148 138,148" fill="#C8B0E8" opacity="0.7"/>
+  <polygon points="118,88 138,88 138,148 112,148" fill="#DDD0EC" opacity="0.7"/>
+  <!-- Ribbon on right side -->
+  <rect x="222" y="148" width="15" height="130" fill="#C0A0D8" opacity="0.7" transform="skewY(-15) translate(0,20)"/>
+
+  <!-- Bow left loop -->
+  <path d="M152 115 Q120 85 108 100 Q96 115 130 128 Z" fill="url(#bow-l)" opacity="0.92"/>
+  <!-- Bow right loop -->
+  <path d="M152 115 Q184 85 196 100 Q208 115 174 128 Z" fill="url(#bow-r)" opacity="0.92"/>
+  <!-- Bow knot center -->
+  <circle cx="152" cy="122" r="11" fill="#E8D8F8"/>
+  <circle cx="152" cy="122" r="8" fill="#B58BD6"/>
+  <circle cx="152" cy="122" r="4" fill="#E8D8F8"/>
+
+  <!-- Bow ribbon tails -->
+  <path d="M144 130 Q132 148 128 158" stroke="#C8B0E8" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M160 130 Q172 148 176 158" stroke="#C8B0E8" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Label on box front -->
+  <rect x="95" y="218" width="112" height="46" rx="4" fill="white" opacity="0.22"/>
+  <rect x="95" y="218" width="112" height="46" rx="4" fill="none" stroke="white" stroke-width="0.8" opacity="0.5"/>
+
+  <text x="151" y="234" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="white" font-style="italic" font-weight="bold" opacity="0.9">Zenia</text>
+  <line x1="103" y1="237" x2="199" y2="237" stroke="white" stroke-width="0.5" opacity="0.5"/>
+  <text x="151" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="white" font-weight="bold" opacity="0.9" letter-spacing="0.5">COFFRET BIEN-ÊTRE</text>
+  <text x="151" y="259" text-anchor="middle" font-family="Arial,sans-serif" font-size="5.8" fill="white" opacity="0.8">Idée cadeau · Prends soin de toi</text>
+
+  <!-- Mini product icons inside hint -->
+  <text x="108" y="287" font-size="14" opacity="0.7">💊</text>
+  <text x="132" y="289" font-size="14" opacity="0.7">🍬</text>
+  <text x="156" y="287" font-size="14" opacity="0.7">🌿</text>
+  <text x="180" y="289" font-size="14" opacity="0.7">🕯️</text>
+</svg>
