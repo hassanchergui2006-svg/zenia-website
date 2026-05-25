@@ -7,5 +7,5 @@
 7:I[76,["/zenia-website/_next/static/chunks/0dbhjjzl8qfwv.js","/zenia-website/_next/static/chunks/0mdvm11_7tbuk.js"],"default"]
 8:I[97367,["/zenia-website/_next/static/chunks/0dbhjjzl8qfwv.js"],"OutletBoundary"]
 9:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}]]}],["$","$L7",null,{}]],[["$","script","script-0",{"src":"/zenia-website/_next/static/chunks/0mdvm11_7tbuk.js","async":true}]],["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"9m2fcUr6BKVmzcUUT9y5Z"}
+0:{"rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","main",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}]]}],["$","$L7",null,{}]],[["$","script","script-0",{"src":"/zenia-website/_next/static/chunks/0mdvm11_7tbuk.js","async":true}]],["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"T9f1u6C-xPjcQ5cTikvKE"}
 a:null
